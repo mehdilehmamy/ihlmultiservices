@@ -1,0 +1,90 @@
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    position: absolute;
+    z-index: 20;
+    padding: 0.2rem 2rem;
+}
+
+.navbar-nav {
+    margin-top: 2rem;
+}
+
+.navbar img {
+    width: 60%;
+}
+
+li {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+  
+.navbar-brand {
+    width: 30%;
+}
+
+
+.mylink {
+    color: white;
+    padding: 0.5rem 2rem;
+    background-color: #23689b;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.mylink:hover {
+    color: #23689b;
+    background-color: white;
+    text-decoration: none;
+}
+
+/* CAROUSEL CAPTION */
+
+.carousel-caption h1{
+   font-weight: 500;
+   font-size: 4rem;
+   margin-bottom: 1rem;
+}
+
+.caption-container {
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+}
+
+/* MARKETING */
+
+.marketing h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem 0rem;
+}
+
+/* MOBILE DESIGN */
+
+@media screen and (max-width: 550px) {
+    .navbar-brand {
+        width: 50%;
+    }
+
+    .navbar img {
+        width: 70%;
+    }
+    body {
+        text-align: center;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+}
